@@ -1,0 +1,18 @@
+.team {
+  &__member {
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  &__member-name {
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-bottom: 0.315rem;
+  }
+
+  &__member-role {
+    margin-bottom: 0.315rem;
+  }
+}

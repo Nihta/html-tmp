@@ -1,0 +1,21 @@
+.branches {
+  font-size: 0.75rem;
+  color: $text-color;
+  text-align: center;
+
+  h2 {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2,
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+}
