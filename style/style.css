@@ -114,6 +114,23 @@
   margin-right: 0.5rem;
 }
 
+.input-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  font-size: 13px;
+  text-align: center;
+  border: none;
+  color: black;
+  border-bottom: 1px solid black;
+  outline: none !important;
+}
+.input::placeholder {
+  color: black;
+}
+
 .casting p {
   text-align: center;
   color: #171c21;
@@ -232,23 +249,6 @@
   height: 400px;
   object-fit: cover;
   padding: 1rem;
-}
-
-.input-container {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.input {
-  font-size: 13px;
-  text-align: center;
-  border: none;
-  color: black;
-  border-bottom: 1px solid black;
-  outline: none !important;
-}
-.input::placeholder {
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
