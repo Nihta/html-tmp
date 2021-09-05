@@ -88,10 +88,16 @@
 }
 .model-card__model-name {
   margin-top: 0.25rem;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   color: #171c21;
   text-transform: uppercase;
+  margin-bottom: 0;
+}
+.model-card__model-role {
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .footer .socials {

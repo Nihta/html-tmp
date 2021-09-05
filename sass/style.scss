@@ -109,10 +109,17 @@ $text-color: #171c21;
 
   &__model-name {
     margin-top: 0.25rem;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
     color: $text-color;
     text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  &__model-role {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: capitalize;
   }
 }
 .footer {
