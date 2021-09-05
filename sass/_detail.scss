@@ -1,0 +1,36 @@
+.detail {
+  .options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .option-item {
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+      border-right: 1px solid black;
+    }
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+      &.active {
+        background-color: #f0f0f0;
+      }
+      padding: 2px 5px;
+    }
+  }
+
+  .detail-carousel {
+    .detail-image {
+      height: 400px;
+      object-fit: cover;
+      padding: 1rem;
+    }
+  }
+}

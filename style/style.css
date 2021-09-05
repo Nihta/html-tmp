@@ -205,6 +205,35 @@
   font-size: 0.75rem;
 }
 
+.detail .options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.detail .option-item {
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.detail .option-item:not(:last-child) {
+  border-right: 1px solid black;
+}
+.detail .option-item a {
+  color: #171c21;
+  text-decoration: none;
+  padding: 2px 5px;
+}
+.detail .option-item a.active {
+  background-color: #f0f0f0;
+}
+.detail .detail-carousel .detail-image {
+  height: 400px;
+  object-fit: cover;
+  padding: 1rem;
+}
+
 .input-container {
   text-align: center;
   margin-bottom: 1.5rem;
